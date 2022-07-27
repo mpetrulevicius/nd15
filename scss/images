@@ -1,0 +1,17 @@
+.image1 {
+  background: $image1;
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background: $image2;
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  background: $image3;
+  background-size: cover;
+  background-position: center;
+}

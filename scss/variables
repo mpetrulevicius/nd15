@@ -1,0 +1,5 @@
+$image1: url("../app/images/imagenba.jpg");
+$image1: url("../app/images/imageeuroleague.png");
+$image1: url("../app/images/imagecup.png");
+$tab-border-color: #ffffff;
+$font-style: Arial, Helvetica, sans-serif;

@@ -1,0 +1,35 @@
+button {
+  background: transparent;
+  color: white;
+  padding: 20px;
+  transition: 1s;
+  margin: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  opacity: 0.4;
+}
+
+.selected {
+  background: transparent;
+  color: black;
+}
+
+
+button::after {
+  content: "BASKETBALL";
+  position: absolute;
+  height: 20px;
+  background: white;
+  width: 0%;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s; 
+}
+
+button:hover:after {
+  width: 100%;
+}
